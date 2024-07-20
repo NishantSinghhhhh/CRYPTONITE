@@ -1,0 +1,56 @@
+/* HomePage.module.css */
+.container {
+    background: linear-gradient(to bottom, #1a202c, #2d3748); /* bg-gradient-to-b from-gray-900 to-gray-800 */
+    color: #ffffff; /* text-white */
+    min-height: 100vh; /* min-h-screen */
+    padding: 5rem 1.5rem; /* py-20 px-6 sm:px-8 */
+  }
+  
+  .heading {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: 700; /* font-bold */
+    line-height: 1.2; /* leading-tight */
+    margin-bottom: 1.5rem; /* mb-6 */
+    text-align: center; /* text-center */
+  }
+  
+  .subheading {
+    font-size: 1.125rem; /* text-lg */
+    margin-bottom: 2.5rem; /* mb-10 */
+    text-align: center; /* text-center */
+  }
+  
+  .section {
+    margin-bottom: 2rem; /* Add space between sections */
+  }
+  
+  .formContainer {
+    max-width: 28rem; /* max-w-md */
+    margin: 0 auto; /* mx-auto */
+    display: flex; /* flex */
+    align-items: center; /* items-center */
+  }
+  
+  .input {
+    flex: 1; /* flex-1 */
+    padding: 0.75rem; /* px-4 py-3 */
+    border-radius: 0.5rem 0 0 0.5rem; /* rounded-l-lg */
+    background: #ffffff; /* bg-white */
+    color: #1a202c; /* text-gray-900 */
+    border: 1px solid #e2e8f0; /* focus:ring-2 focus:ring-purple-600 */
+  }
+  
+  .button {
+    background-color: #6b46c1; /* bg-purple-600 */
+    color: #ffffff; /* text-white */
+    padding: 0.75rem 1.5rem; /* px-6 py-3 */
+    border-radius: 0 0.5rem 0.5rem 0; /* rounded-r-lg */
+    font-weight: 500; /* font-medium */
+    cursor: pointer; /* cursor-pointer */
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #5a3d9a; /* hover:bg-purple-700 */
+  }
+  

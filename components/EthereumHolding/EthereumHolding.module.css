@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container {
+  font-family: "Roboto", sans-serif;
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 2rem; /* Increased padding */
+}
+
+.heading {
+  font-size: 2rem; /* Increased font size */
+  font-weight: 600;
+  background-color: #2d3748;
+  color: #ffffff;
+  margin-bottom: 1.5rem; /* Increased margin */
+  padding: 1.5rem; /* Increased padding */
+  border-radius: 0.375rem;
+}
+
+.table {
+  min-width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHead {
+  background-color: #1a202c;
+}
+
+.tableHeadCell {
+  padding: 1rem 2rem; /* Increased padding */
+  text-align: left;
+  font-size: 1.125rem; /* Increased font size */
+  font-weight: 500;
+  color: #e2e8f0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.tableBody {
+  background-color: #2d3748;
+}
+
+.tableBodyRow {
+  border-bottom: 1px solid #4a5568;
+  text-align: center;
+  font-size: 1.125rem; /* Increased font size */
+}
+
+.tableBodyCell {
+  padding: 1rem 2rem; /* Increased padding */
+  color: #edf2f7;
+}
+
+.tableBodyRow:hover {
+  background-color: #4a5568;
+}
+
+.loading {
+  color: #4a5568;
+  text-align: center;
+  font-size: 2rem; /* Increased font size */
+  padding: 1.5rem; /* Increased padding */
+}
+
+.error {
+  color: #e53e3e;
+  text-align: center;
+  font-size: 2rem; /* Increased font size */
+  padding: 1.5rem; /* Increased padding */
+}
+
+.noData {
+  color: #4a5568;
+  text-align: center;
+  font-size: 2rem; /* Increased font size */
+  padding: 1.5rem; /* Increased padding */
+}

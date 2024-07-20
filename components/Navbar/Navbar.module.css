@@ -1,0 +1,61 @@
+/* Navbar.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.navbar {
+  background-color: #2d3748; /* Adjust background color as needed */
+  padding: 1rem; /* Add padding for spacing */
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+/* Navbar.module.css */
+.logoContainer {
+  padding-right: 10%;
+  color: white;
+  font-size: 300%;
+  font-family: 'Bebas Neue', sans-serif; /* Ensure Bebas Neue is imported or available */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow effect */
+}
+
+
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+  width: 100%;
+  padding-left: 30%;
+}
+
+.navList {
+  display: flex;
+  gap: 20px; /* Space between nav items */
+}
+
+.navItem {
+  background-color: #4a5568; /* Darker background color for buttons */
+  color: #ffffff; /* Text color */
+  padding: 0.5rem 1rem; /* Padding for button-like appearance */
+  border-radius: 0.25rem; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  font-size: 1.125rem; /* x-large font size */
+  text-align: center; /* Center text alignment */
+  text-decoration: none; /* Remove underline */
+}
+
+.navItem:hover {
+  background-color: #2d3748; /* Darker background on hover */
+  color: #f7fafc; /* Lighter text color on hover */
+}
